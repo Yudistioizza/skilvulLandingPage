@@ -1,0 +1,156 @@
+/* Reset CSS */
+body, h1, p, ul, li, form, label, input, button, a, footer, table, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box; /* Add box-sizing: border-box; to all elements */
+}
+
+/* Set font family and background color */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Background color for the entire page */
+}
+
+/* Style the navigation bar */
+nav.topnav {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-between; /* Center-align the content horizontally */
+    align-items: center;
+    background-color: #008000; /* Green background color */
+    padding: 10px 20px; /* Padding on top and bottom, wider spacing on left and right */
+    position: sticky; /* Make the navbar sticky */
+    top: 0; /* Stick it to the top of the viewport */
+    z-index: 100; /* Ensure it appears above other content */
+}
+
+nav.topnav a {
+    color: #ffffff; /* White text color */
+    text-decoration: none;
+    margin: 0 10px; /* Add spacing between navigation links */
+    transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+nav.topnav a:hover {
+    color: #ace4a9; /* Light green color on hover */
+}
+
+/* Style the main content container */
+#home {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#home h1 {
+    color: #008000;
+}
+
+#description {
+    font-style: italic;
+}
+
+/* Style the news section */
+#news {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#news h1 {
+    color: #008000;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+/* Style the form section */
+#form {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style form elements */
+form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+form input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+form #check {
+    font-style: italic;
+    color: #555;
+}
+
+form button {
+    background-color: #008000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #005500;
+}
+
+/* Style the about section */
+#about {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#link {
+    color: #008000;
+    text-decoration: underline;
+}
+
+#link:hover {
+    color: #005500;
+}
+
+/* Style the footer */
+footer {
+    background-color: #008000; /* Green background color for the footer */
+    color: white; /* White text color */
+    text-align: center;
+    padding: 10px 0;
+}
